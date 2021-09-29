@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: repeat
+}
+#navbar_top {
+  border-radius: 30px;
+  margin: 4vh;
+  background-color: white;
+  color: black;
+}
+.cv-button {
+  border: 1px solid blue;
+  border-radius: 30px;
+}
+.cv-button:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+.profile-pic {
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 100%;
+}
+.name > h1 {
+  font-weight: 700;
+  font-size: 4.8vw;
+}
+
+.tag {
+margin-top: 3vh;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: "Source Code Pro", monospace;
+}
+.tag {
+  animation: animated-text 5s steps(35, end) 1s 1 normal both,
+    animated-cursor 600ms steps(35, end) infinite;
+}
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 472px;
+  }
+}
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(0, 255, 0, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.social-icons {
+    display: flex;
+}
+.social {
+    margin-left: 13px;
+}
+.contact-button {
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 6px;
+}
+.connect {
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    border: 1px solid green;
+    color: green;
+}
+.resume:hover {
+    background-color: mediumseagreen;
+    color:white;
+}
+.contact {
+    border: 1px solid rgb(30, 135, 161);
+    color:rgb(30, 135, 161);
+}
+.contact:hover {
+    background-color: rgb(30, 135, 161);;
+    color:white;
+}
+.github:hover {
+    background-color: grey;
+    color:white;
+}
+.linkedin:hover {
+    background-color: lightsteelblue;
+    color:white;
+}
+
+.github {
+    border: 1px solid black;
+    color:black;
+}
+.linkedin {
+    border: 1px solid blue;
+    color:blue;
+}
+.answer {
+    color: rgb(30, 135, 161);
+}
+a {
+    cursor: pointer;
+}
+
+/* Animations for Experience */
+.ml1 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml1 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml1 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+  }
+  
+  .ml1 .line1 { top: 0; }
+  .ml1 .line2 { bottom: 0; }
+
+  .exp {
+    margin: auto;
+  }
+  /* Ended */
+
+  .experience-card {
+      display: flex;
+      justify-content: center;
+  }
+  .outer-card {
+    background: linear-gradient(90deg, rgb(18, 12, 119) 0%, rgb(121, 121, 194) 35%, rgba(0,212,255,1) 100%);
+    height: 40vh;
+    padding: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+      display: flex;
+  }
+  .label {
+      margin-left: 5px;
+  }
+  .inner-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /* animation for skills  */
+  
+ .center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2em;
+ }
+ .skill-item {
+     margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  
+.logos {
+    height: 70%;
+}
+.vl {
+    border-left: 10px solid blue;
+    border-radius: 5px;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 10px;
+}
+.flex-div {
+    display: flex;
+
+}
+.project-title {
+  color:rgb(55, 47, 209);
+}
+.footer-color {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(18, 12, 119) 0%, rgb(121, 121, 194) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+  border-radius: 30px;
+}
