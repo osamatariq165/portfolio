@@ -1,23 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 body {
-  background-image: url("images/background.jpg");
+  background-image: url("images/background2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  color: aliceblue;
 }
 #navbar_top {
   border-radius: 30px;
   margin: 4vh;
   color: black;
+  font-weight: 700;
+  font-size: 1.5vw;
 }
-.cv-button-li {
+.main-color {
+  color:#d1c398;
+}
+.skill-header {
+  background-color: #d1c398;
+}
+.black-color {
+  color: rgb(19, 17, 17);
 }
 .cv-button {
-  border: 1px solid blue;
+  border: 1px solid #d1c398;
   border-radius: 30px;
 }
 .cv-button:hover {
-  background-color: lightskyblue;
+  background-color: #d1c398;
   color: white;
+}
+.nav-link:hover {
+  border-radius: 30px;
+  background-color: #d1c398;
+}
+.navbar-brand:hover {
+  padding: 10px;
+  background-color: #d1c398;
+  border-radius: 30px;
 }
 .profile-pic {
   opacity: 1;
@@ -101,8 +120,8 @@ margin-top: 3vh;
     color:white;
 }
 .linkedin:hover {
-    background-color: lightsteelblue;
-    color:white;
+    background-color: #d1c398;
+    color:black;
 }
 
 .github {
@@ -110,11 +129,11 @@ margin-top: 3vh;
     color:black;
 }
 .linkedin {
-    border: 1px solid blue;
-    color:blue;
+    border: 1px solid #d1c398;
+    color:white;
 }
 .answer {
-    color: rgb(30, 135, 161);
+    color: #d1c398
 }
 a {
     cursor: pointer;
@@ -214,6 +233,10 @@ a {
 .flex-div {
     display: flex;
 
+}
+.center-align {
+  display: flex;
+  justify-content: center;
 }
 .project-title {
   color:rgb(55, 47, 209);

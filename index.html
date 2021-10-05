@@ -16,18 +16,17 @@
 <body>
     <nav id="navbar_top" class="navbar navbar-light bg-light navbar-expand-lg mt-5">
         <div class="container">
-            <a class="navbar-brand" href="#">Osama Tariq</a>
+            <a class="navbar-brand" href="index.html">Osama Tariq</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    <li class="nav-item cv-button-li"><a class="nav-link cv-button p-2" href="#">Download CV <i class="fas fa-download"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item cv-button-li"><a class="nav-link cv-button p-2" href="OsamaTariq.pdf">Download CV <i class="fas fa-download"></i></a></li>
                 </ul>
             </div> <!-- navbar-collapse.// -->
         </div> <!-- container-fluid.// -->
@@ -39,7 +38,7 @@
                 <img class="profile-pic img-fluid" src="images/pic1.jpg" alt="Profile Picture">
             </div>
             <div class="col-md-6 mt-5">
-                <span class="name">
+                <span class="name main-color">
                     <h1>Osama</h1>
                     <h1>Tariq</h1>
                 </span>
@@ -68,16 +67,15 @@
                                 <p class="label">Email:</p>
                             </div>
                             <div class="answer col-3">
-                                <a style="text-decoration: none; color: rgb(30, 135, 161);"
-                                    href="">osamatariq938@gmail.com</a>
+                                <p>osamatariq938@gmail.com</p>
                             </div>
                         </div>
                     </div>
                     <div class="connect mt-3">
-                        <a class="contact-button contact" href="#">Contact me</a>
-                        <a class="contact-button resume" href="#">Resume</a>
-                        <a class="contact-button github" href="#">Github</a>
-                        <a class="contact-button linkedin" href="#">LinkedIn</a>
+                        <a class="contact-button contact " href="#contact">Contact me</a>
+                        <a class="contact-button resume" href="OsamaTariq.pdf">Resume</a>
+                        <a class="contact-button github" href="https://github.com/OsamaTariq938">Github</a>
+                        <a class="contact-button linkedin" href="https://www.linkedin.com/in/osamatariq938/">LinkedIn</a>
                     </div>
                     <!-- <div class= "social-icons mt-4">
                         <a href=""><i class="social fab fa-facebook fa-2x"></i></a>
@@ -94,7 +92,7 @@
             <h1 class="ml1">
                 <span class="text-wrapper">
                     <span class="line line1"></span>
-                    <span class="letters">EXPERIENCE</span>
+                    <span class="letters main-color">EXPERIENCE</span>
                     <span class="line line2"></span>
                 </span>
             </h1>
@@ -104,26 +102,26 @@
             <div class="col-md-8">
                 <div class="card outer-card">
                     <div class="card inner-card">
-                        <div class="card-header">
+                        <div class="card-header black-color center skill-header">
                             TkXel
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="title">
-                                    <p class="answer col-2">Title: </p>
-                                    <div class="label col-10">
-                                        Full Stack JavaScript Developer
+                                    <p class="answer col-4 center-align">Title: </p>
+                                    <div class="label black-color col-8">
+                                       Full Stack JavaScript Developer
                                     </div>
                                 </div>
                                 <div class="title">
-                                    <p class="answer col-2">Technologies: </p>
-                                    <div class="label col-10">
+                                    <p class="answer col-4 center-align">Technologies: </p>
+                                    <div class="label col-sm-12 black-color">
                                         Angular 11, Nodejs, GraphQL, AWS Amplify
                                     </div>
                                 </div>
                                 <div class="title">
-                                    <p class="answer col-2">Description: </p>
-                                    <div class="label col-10">
+                                    <p class="answer col-4 center-align">Description: </p>
+                                    <div class="label col-8 black-color">
                                         I am working in TkXel for more than a year as a Full Stack developer. My duties
                                         includes designing front-end as well as writing APIs to integrate with backend
                                         using Node and Express.
@@ -136,14 +134,14 @@
             </div>
         </div>
         <!-- experience-2 -->
-        <hr>
+        <hr id="skills">
 
         <!-- Skills section -->
         <div class="row exp">
             <h1 class="ml1">
                 <span class="text-wrapper">
                     <span class="line line1"></span>
-                    <span class="letters">SKILLS</span>
+                    <span class="letters main-color">SKILLS</span>
                     <span class="line line2"></span>
                 </span>
             </h1>
@@ -153,10 +151,10 @@
             <!-- 1st column -->
             <div class="col-md-4 col-sm-12 skill">
                 <div class="card">
-                    <div class="center card-header">
+                    <div class="center card-header black-color skill-header">
                         Front-end
                     </div>
-                    <div class="card-body">
+                    <div class="card-body black-color">
                         <div class="skill-item row ">
                             <div class="icon col-4">
                                 <img class="img-fluid logos" src="images/html5.svg" alt="">
@@ -195,10 +193,10 @@
             <!-- 2nd column -->
             <div class="col-md-4 col-sm-12 mt-2 skill">
                 <div class="card">
-                    <div class="center card-header">
+                    <div class="center card-header black-color skill-header">
                         Back-end
                     </div>
-                    <div class="card-body">
+                    <div class="card-body black-color">
                         <div class="skill-item row ">
                             <div class="icon col-4">
                                 <img class="img-fluid logos" src="images/nodejs.png" alt="">
@@ -238,10 +236,10 @@
             <div class="col-md-4 col-sm-12 mt-2 skill">
                 <!-- databases -->
                 <div class="card">
-                    <div class="center card-header">
+                    <div class="center card-header black-color skill-header">
                         Databases
                     </div>
-                    <div class="card-body">
+                    <div class="card-body black-color">
                         <div class="skill-item row ">
                             <div class="icon col-4">
                                 <img class="img-fluid logos" src="images/mysql.png" alt="">
@@ -262,10 +260,10 @@
                 </div>
                 <!-- other skills -->
                 <div class="card mt-2">
-                    <div class="center card-header">
+                    <div class="center card-header black-color skill-header">
                         Tools
                     </div>
-                    <div class="card-body">
+                    <div class="card-body black-color">
                         <div class="skill-item row ">
                             <div class="icon col-4">
                                 <img class="img-fluid logos" src="images/mysql.png" alt="">
@@ -286,14 +284,14 @@
                 </div>
             </div>
         </div>
-        <hr>
+        <hr id="projects">
 
         <!-- Projects -->
         <div class="row exp">
             <h1 class="ml1">
                 <span class="text-wrapper">
                     <span class="line line1"></span>
-                    <span class="letters">PROJECTS</span>
+                    <span class="letters main-color">PROJECTS</span>
                     <span class="line line2"></span>
                 </span>
             </h1>
@@ -302,10 +300,10 @@
         <div class="row">
             <div class="col-md-4 offset-md-6">
                 <div class="card">
-                    <div class="card-header">
-                        <h5 class="card-title text-center project-title">PU E-Bus Tracking App</h5>
+                    <div class="card-header skill-header black-color">
+                        <h5 class="card-title text-center">PU E-Bus Tracking App</h5>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body black-color">
                       <p class="card-text">This is an Android based app that tracks the drivers of a universoty bus and students can show the required bus on tha map. I used Java to develop the app along with Firebase as Realtime Database.</p>
                       <a href="#" class="contact-button resume">Source Code</a>
                       <a href="#" class="contact-button github">Live Demo</a>
@@ -317,10 +315,10 @@
         <div class="row mt-5">
             <div class="col-md-4 offset-md-2">
                 <div class="card">
-                    <div class="card-header">
-                        <h5 class="card-title text-center project-title">TODO App</h5>
+                    <div class="card-header skill-header black-color">
+                        <h5 class="card-title text-center">TODO App</h5>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body black-color">
                       <p class="card-text">This is an Angular based To-do app in which user can apply all the CRUD operations. For simplicity and to focus on front-end, I used local storage to save todos.</p>
                       <a href="#" class="contact-button resume">Source Code</a>
                       <a href="#" class="contact-button github">Live Demo</a>
@@ -328,20 +326,20 @@
                 </div>
             </div>
         </div>
-        <hr>
+        <hr id="contact">
         <!-- Contact form  -->
         <div class="row exp">
             <h1 class="ml1">
                 <span class="text-wrapper">
                     <span class="line line1"></span>
-                    <span class="letters">CONTACT</span>
+                    <span class="letters main-color">CONTACT</span>
                     <span class="line line2"></span>
                 </span>
             </h1>
         </div>
         <div class="card">
-            <div class="card-body">
-                <form>
+            <div class="card-body black-color">
+                <form action="mailto:osamatariq938.com" method="post" enctype="text/plain">
                     <div class="form-group mb-3">
                       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your full name">
                     </div>
@@ -351,7 +349,7 @@
                     <div class="form-group mb-3">
                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message here..."></textarea>
                     </div>
-                    <button class="btn github">Submit</button>
+                    <input class="btn github" type="submit" value ="Submit">
                   </form>
             </div>
         </div>
@@ -398,8 +396,6 @@
 
   // Ended
     </script>
-
-
 
 </body>
 
