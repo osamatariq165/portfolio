@@ -63,8 +63,9 @@ margin-top: 3vh;
   }
 }
 .tag {
-  animation: animated-text 5s steps(35, end) 1s 1 normal both,
-    animated-cursor 600ms steps(35, end) infinite;
+  /* animation: animated-text 5s steps(35, end) 1s 1 normal both,
+    animated-cursor 600ms steps(35, end) infinite; 
+    Commenting because of expanding issue of navbar */
 }
 @keyframes animated-text {
   from {

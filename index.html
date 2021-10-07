@@ -356,7 +356,7 @@
         <hr>
         <!-- Footer  -->
         <div class="card footer-color mt-3">
-            <p><i class="far fa-copyright"></i> 2021 Osama Tariq</p>
+            <p><i class="far fa-copyright"></i> 2021 Osama Tariq. All rights reserved.</p>
         </div>
 
     </div>
@@ -366,7 +366,8 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script>
-        var textWrapper = document.querySelector('.ml1 .letters');
+        // Changed name to ml2 to stop animation due to navbar expansion
+        var textWrapper = document.querySelector('.ml2 .letters');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
         anime.timeline({ loop: true })
